@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(120deg,#3498db,#8e44ad);
+}
+
+ul li{
+  display: inline-table;
+  margin:3px;
+  background: #594848;
+  background-color: aqua;
+}
+li:hover{
+  background-color: black;
+}
+ul li a{
+  width: 150px;
+  color: rgb(169, 169, 170);
+  background:#594848;
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+div ul li{
+  width: 200px;
+  color: rgb(2, 64, 250);
+  background:#ad9a9a;
+  display: inline-table;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: bolder;  
+}
+p{
+  color: rgb(7, 7, 7);
+  vertical-align: left;
+}
+p:hover{
+  background-color: crimson;
+}
+.p-color{
+  color: rgb(72, 94, 94);
+  background-color: rgb(13, 241, 127);
+  margin: 20px auto;
+  width: 200px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#btn{
+  background-color: green;
+  color: white;
+  font-size: 10px;
+}
+#btn:hover{
+  background-color: blue;
+}
+.fa-facebook:hover{color: darkred;}
+.fa-instagram:hover{color: rgb(127, 141, 148);}
+.fa-twitter:hover{color: black;}
+
+.social a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    color: rgb(8, 158, 218);
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgb(95, 114, 82);
+    margin-bottom: 35px;
+}
+
+.social a:hover{
+    transform: scale(1.1);
+    background: rgb(221, 174, 18);
+}
+footer{
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  background: #594848;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+footer:hover{
+  background-color: gold;
+  color: brown;
+}
